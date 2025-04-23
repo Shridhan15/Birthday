@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: #ffeef8;
+  color: #d63384;
+  text-align: center;
+}
+
+.page {
+  padding: 2rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery-img {
+  width: 180px;
+  height: 220px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.gif {
+  width: 300px;
+  border-radius: 15px;
+}
